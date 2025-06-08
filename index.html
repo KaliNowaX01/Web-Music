@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MONEY HEIST MD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>MONEY HEIST MD</header>
+  <div class="search-bar">
+    <input id="searchInput" type="text" placeholder="Search songs..." oninput="updateSuggestions()" />
+  </div>
+  <div class="player">
+    <img id="thumbnail" class="thumbnail" src="" alt="Thumbnail"/>
+    <video id="videoPlayer" src="" controls poster="" hidden></video>
+    <audio id="audioPlayer" controls autoplay></audio>
+    <div class="controls">
+      <button onclick="play()">Play</button>
+      <button onclick="pause()">Pause</button>
+      <button onclick="skip()">Skip ▶</button>
+    </div>
+  </div>
+  <div class="suggestions" id="suggestionsContainer"></div>
+  <div class="more-btn"><button onclick="showMore()">Next ➡</button></div>
+  <script src="script.js"></script>
+</body>
+</html>

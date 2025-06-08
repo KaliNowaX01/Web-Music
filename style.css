@@ -1,0 +1,12 @@
+body { background: linear-gradient(135deg, #000, #8B0000); color: #fff; font-family: Arial, sans-serif; margin: 0; }
+header { text-align: center; padding: 20px; color: #FF4444; font-size: 2.5rem; font-weight: bold; }
+.search-bar { text-align: center; margin: 10px; }
+.search-bar input { width: 80%; max-width: 400px; padding: 10px; border:none; border-radius:8px; font-size: 1rem; }
+.player { text-align: center; margin: 20px auto; background: #111; padding:20px; border-radius:12px; max-width:600px; }
+.thumbnail { width: 100%; max-width:400px; height:auto; border-radius:12px; cursor:pointer; }
+video, audio { width: 100%; max-width:600px; margin-top:10px; }
+.controls button { margin:10px; padding:10px 20px; background:#FF4444; color:#fff; border:none; border-radius:8px; font-size:1rem; cursor:pointer; }
+.suggestions { margin:20px auto; max-width:600px; }
+.suggestions div { padding:10px; background:#222; margin:5px 0; cursor:pointer; border-radius:8px; }
+.more-btn { text-align:center; margin: 10px; }
+.more-btn button { padding:8px 16px; background:#444; color:white; border:none; border-radius:6px; cursor:pointer; }
